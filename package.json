@@ -23,6 +23,7 @@
   "devDependencies": {
     "css-loader": "~0.18.0",
     "file-loader": "~0.8.4",
+    "html-include-replace": "fordlee404/html-include-replace",
     "jade": "^1.11.0",
     "jade-loader": "~0.7.1",
     "less": "^2.5.1",
