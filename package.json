@@ -18,12 +18,12 @@
     "stream-cache": "~0.0.1",
     "strip-ansi": "^3.0.0",
     "supports-color": "^3.1.1",
+    "html-include-replace": "fordlee404/html-include-replace",
     "webpack-dev-middleware": "^1.2.0"
   },
   "devDependencies": {
     "css-loader": "~0.18.0",
     "file-loader": "~0.8.4",
-    "html-include-replace": "fordlee404/html-include-replace",
     "jade": "^1.11.0",
     "jade-loader": "~0.7.1",
     "less": "^2.5.1",
