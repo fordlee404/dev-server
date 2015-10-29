@@ -6,5 +6,13 @@ module.exports = {
 			{ test: /\.less$/, loader: "style!css!less" },
 			{ test: /\.png$/, loader: "file?prefix=img/" }
 		]
+	},
+	devServer: {
+		includeReplace: {
+      includesDir: '.',
+      globals: {
+        ASSETS: ''
+      }
+    }
 	}
 }
