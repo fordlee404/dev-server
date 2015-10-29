@@ -1,6 +1,6 @@
 {
   "name": "webpack-dev-server",
-  "version": "1.13.2",
+  "version": "1.13.3",
   "author": "Tobias Koppers @sokra",
   "description": "Serves a webpack app. Updates the browser on changes.",
   "peerDependencies": {
@@ -47,6 +47,6 @@
     "ssl/"
   ],
   "scripts": {
-    "preinstall": "webpack ./client/live.js client/live.bundle.js --colors --config client/webpack.config.js -p && webpack ./client/index.js client/index.bundle.js --colors --config client/webpack.config.js -p"
+    "postinstall": "webpack ./client/live.js client/live.bundle.js --colors --config client/webpack.config.js -p && webpack ./client/index.js client/index.bundle.js --colors --config client/webpack.config.js -p"
   }
 }
