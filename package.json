@@ -1,7 +1,7 @@
 {
-  "name": "webpack-dev-server",
-  "version": "1.13.4",
-  "author": "Tobias Koppers @sokra",
+  "name": "dev-server-fe",
+  "version": "1.13.5",
+  "author": "Ford Lee",
   "description": "Serves a webpack app. Updates the browser on changes.",
   "peerDependencies": {
     "webpack": "^1.3.0"
@@ -35,7 +35,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/webpack/webpack-dev-server.git"
+    "url": "https://github.com/fordlee404/dev-server.git"
   },
   "homepage": "http://github.com/webpack/webpack-dev-server",
   "main": "lib/Server.js",
